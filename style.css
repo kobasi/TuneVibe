@@ -105,3 +105,28 @@
     padding: 0% 4% 4% 1%;
     font-size: 19pt;
 }
+
+/* Footer Section */
+.card-footer {
+    /* height: 300px; */
+}
+
+.footer-text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    text-align: center;
+    padding-top: 5%;
+
+}
+
+.app-store {
+    width: 140px;
+    height: 50px;
+    padding-right: 1%;
+}
+
+.google-play {
+    width: 185px;
+    height: 50px;
+    padding-left: 3%;
+}
