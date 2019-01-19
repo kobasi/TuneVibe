@@ -99,20 +99,30 @@ body {
     font-family: 'Alegreya Sans SC', sans-serif;
     font-weight: 300;
     letter-spacing: 4px;
-    padding: .85%;
+    margin-top: 0%;
+    margin-left: 1.8%;
+}
+
+.card-title2 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 300;
+    letter-spacing: 4px;
+    margin-top: 2.5%;
+    margin-left: 1.8%;
+    padding-bottom: 2%;
 }
 .card-text {
     text-align: center;
-    padding: 1.5% 4% 4% 1%;
-    /* font-size: 19px; */
-    margin-left: 15%;
-    margin-right: 15%;
+    padding: 1.2% 4% 4% 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+
     font-style: italic;
 }
 
 .card-text2 {
     text-align: center;
-    padding: 0% 4% 4% 1%; 
+    padding: 1.5% 4% 4% 1%; 
 }
 /* Footer Section */
 .card-footer {
@@ -145,7 +155,11 @@ body {
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
     .card-text {
-        font-size: 25pt;
+        font-size: 21pt;
+    }
+
+    .card-text2 {
+        font-size: 17pt;
     }
     .image1 {
         width: 1350px;
@@ -171,7 +185,9 @@ body {
    .navbar {
        display: none;
    }
-      
+   .card-title {
+       text-align: center;
+   }   
 }
 
 
