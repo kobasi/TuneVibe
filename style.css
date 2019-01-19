@@ -48,7 +48,11 @@ body {
     font-weight: 300;
     letter-spacing: 8px;
     text-align: center;
-    padding-top: 20%;
+    padding-top: 24%;
+}
+
+.no-padding {
+    padding-top: 0%;
 }
 
 .lead {
@@ -78,7 +82,7 @@ body {
 
 /* Cards */
 .card {
-    height: 350px;
+    height: 300px;
     background-color: black;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
@@ -99,10 +103,17 @@ body {
 }
 .card-text {
     text-align: center;
-    padding: 0% 4% 4% 1%;
+    padding: 1.5% 4% 4% 1%;
     /* font-size: 19px; */
+    margin-left: 15%;
+    margin-right: 15%;
+    font-style: italic;
 }
 
+.card-text2 {
+    text-align: center;
+    padding: 0% 4% 4% 1%; 
+}
 /* Footer Section */
 .card-footer {
     height: 300px;
@@ -134,7 +145,7 @@ body {
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
     .card-text {
-        font-size: 19pt;
+        font-size: 25pt;
     }
     .image1 {
         width: 1350px;
@@ -155,24 +166,11 @@ body {
 }
 
 
-/* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
-    .image1 {
-        width: 1100px;
-        height: 700px;
-    }
-    .image2 {
-        width: 1100px;
-        height: 700px;
-    }
-    .image3 {
-        width: 1100px;
-        height: 700px;
-    }
-    .image4 {
-        width: 1100px;
-        height: 900px;
-    }
+/* // XSmall-Small devices (landscape phones, 576px and below) */
+@media (max-width: 576px) { 
+   .navbar {
+       display: none;
+   }
       
 }
 
