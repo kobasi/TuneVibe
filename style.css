@@ -174,6 +174,7 @@ body {
 
 /* Media Queries */
 
+
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
     .card-text {
@@ -201,15 +202,45 @@ body {
     }
 }
 
+/* 
+@media (max-width: 991px) {
+    .iphone-app {
+        width: 220px;
+        height: 220px;
+    }
+    .iphone-app2 {
+        width: 210px;
+        height: 320px;
+    }  
+}
 
-/* // XSmall-Small devices (landscape phones, 576px and below) */
-@media (max-width: 576px) { 
+@media (min-width: 577px) {
+    .iphone-app {
+        width: 220px;
+        height: 220px;
+    }
+    .iphone-app2 {
+        width: 210px;
+        height: 320px;
+    }
+} */
+
+/* // XSmall-Small-Medium devices (landscape phones, 576px and below) */
+@media (max-width: 991px) { 
    .navbar {
        display: none;
    }
    .card-title {
        text-align: center;
+   }
+   .iphone-app {
+       width: 200px;
+       height: 200px;
    }   
+   .iphone-app2 {
+       width: 220px;
+       height: 315px;
+   }
 }
 
 
