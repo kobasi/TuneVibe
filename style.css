@@ -118,6 +118,7 @@ body {
     margin-left: 1.8%;
     padding-bottom: 2%;
 }
+
 .card-text {
     text-align: center;
     padding: 1.2% 4% 4% 1%;
@@ -145,6 +146,11 @@ body {
     height: 470px;
     margin-left: 5%;
 }
+  
+  /* Define #phone hover styles */
+  #phone:hover {
+    transform: scale(1.25);
+  }
 
 /* Footer Section */
 .card-footer {
