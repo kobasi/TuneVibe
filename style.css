@@ -9,7 +9,7 @@ body {
 .navbar-brand {
     font-family: 'Alegreya Sans SC', sans-serif;
     font-stretch: expanded 5px;
-    letter-spacing: 4px;
+    letter-spacing: 4.5px;
     font-weight: 300;
     color: whitesmoke;
 }
@@ -105,7 +105,7 @@ body {
 }
 .card2 {
     height: 635px;
-    background-color: yellow;
+    background-color: #744EA0;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     color: whitesmoke;
@@ -143,10 +143,27 @@ body {
     padding: 0px;
 
 }
+
+.row-container-around {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-flow: row wrap;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 20px;
+
+}
+
+.card-body {
+    display: flex;
+}
 .card-title {
     font-family: 'Alegreya Sans SC', sans-serif;
     font-weight: 300;
-    letter-spacing: 4px;
+    letter-spacing: 4.5px;
     margin-top: 0%;
     margin-left: 1.8%;
 }
@@ -154,7 +171,7 @@ body {
 .card-title2 {
     font-family: 'Alegreya Sans SC', sans-serif;
     font-weight: 300;
-    letter-spacing: 4px;
+    letter-spacing: 4.5px;
     margin-top: 2.5%;
     margin-left: 1.8%;
     padding-bottom: 2%;
@@ -189,7 +206,8 @@ body {
 }
 
 .card-text3 {
-    color: black;
+    color: whitesmoke;
+    padding-top: 2%;
 }
 
 .iphone-app {
