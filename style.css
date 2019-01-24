@@ -20,6 +20,10 @@ body {
     text-align: right;
 }
 
+.fab {
+    color: whitesmoke;
+}
+
 /* Video Hero Section*/
 
 .jumbotron {
@@ -61,6 +65,17 @@ body {
     padding-top: 1%;
 }
 
+.fas {
+    width: 100px;
+    height: 100px;
+    padding-top: 7%;
+    padding-left: 50%;
+}
+
+#downarrow:hover {
+    transform: scale(1);
+}
+
 /* Carousel Images */
 /* .image1 {
     width: 1350px;
@@ -82,15 +97,15 @@ body {
 
 /* Cards */
 .card {
-    height: 300px;
+    height: 320px;
     background-color: black;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     color: whitesmoke;
 }
 .card2 {
-    height: 575px;
-    background-color: black;
+    height: 635px;
+    background-color: yellow;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     color: whitesmoke;
@@ -101,6 +116,32 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     color: whitesmoke;
+}
+
+.row-container-left{
+    display: flex;
+    flex-flow: wrap;
+    width: 50%;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    align-content: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0px;
+
+}
+
+.row-container-right{
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    flex-flow: wrap;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0px;
+
 }
 .card-title {
     font-family: 'Alegreya Sans SC', sans-serif;
@@ -119,19 +160,36 @@ body {
     padding-bottom: 2%;
 }
 
-.card-text {
+.card-title3 {
+    color: whitesmoke;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-style: italic;
     text-align: center;
+}
+
+.card-title4 {
+    color: black;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-align: center;
+}
+
+.card-text {
+    text-align: left;
     padding: 1.2% 4% 4% 1%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
     /* font-style: italic; */
 }
 
 .card-text2 {
-    text-align: center;
+    text-align: left;
     padding: 1.5% 4% 4% 1%;
-    margin-left: 5%;
-    margin-right: 5%; 
+    margin-left: 3.5%;
+    margin-right: 3.5%; 
+}
+
+.card-text3 {
+    color: black;
 }
 
 .iphone-app {
@@ -143,14 +201,20 @@ body {
 
 .iphone-app2 {
     width: 325px;
-    height: 470px;
-    margin-left: 5%;
+    height: 475px;
+    margin-left: 10%
 }
   
   /* Define #phone hover styles */
   #phone:hover {
     transform: scale(1.25);
   }
+
+.form-control {
+    width: 60%;
+    margin-left: 20%;
+    padding-right: 15%;
+}
 
 /* Footer Section */
 .card-footer {
@@ -177,9 +241,7 @@ body {
     padding-left: 3%;
 }
 
-
 /* Media Queries */
-
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
