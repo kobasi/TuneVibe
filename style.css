@@ -20,6 +20,9 @@ body {
     text-align: right;
 }
 
+nav a:hover {
+    color: plum;
+}
 .fab {
     color: whitesmoke;
 }
@@ -94,17 +97,24 @@ body {
     height: 900px;
 } */
 
+.image5 {
+    width: 400px;
+    height: 275px;
+    border-radius: 20%;
+    margin-top: 1%;
+    margin-right: 2%;
+}
 
 /* Cards */
 .card {
-    height: 320px;
+    height: 310px;
     background-color: black;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     color: whitesmoke;
 }
 .card2 {
-    height: 635px;
+    height: 660px;
     background-color: #744EA0;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
@@ -145,15 +155,8 @@ body {
 }
 
 .row-container-around {
-    width: 50%;
     display: flex;
-    justify-content: space-between;
-    align-content: center;
-    flex-flow: row wrap;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    padding: 20px;
+    justify-content: space-around;
 
 }
 
@@ -187,6 +190,7 @@ body {
 .card-title4 {
     color: black;
     font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 500;
     text-align: center;
 }
 
@@ -234,6 +238,10 @@ body {
     padding-right: 15%;
 }
 
+.form-control2 {
+    width: 50%;
+}
+
 /* Footer Section */
 .card-footer {
     height: 300px;
@@ -247,6 +255,16 @@ body {
     padding-bottom: 1.5%;
 }
 
+.modal-title {
+color: green;
+font-family: 'Source Sans Pro', sans-serif;
+text-align: center;
+font-weight: 500;
+}
+.modal-body {
+    color: black;
+    text-align: center;
+}
 .app-store {
     width: 140px;
     height: 50px;
@@ -268,7 +286,7 @@ body {
     }
 
     .card-text2 {
-        font-size: 17pt;
+        font-size: 15pt;
     }
     .image1 {
         width: 1350px;
@@ -326,6 +344,23 @@ body {
    .iphone-app2 {
        width: 220px;
        height: 315px;
+   }
+   .card-text {
+       font-size: 10pt;
+   }
+
+   .card-text2 {
+       font-size: 10pt;
+       flex-flow: nowrap;
+   }
+
+   .card-text3 {
+       font-size: 10pt;
+       flex-flow: nowrap;
+   }
+
+   .card-text4 {
+       font-size: 10pt;
    }
 }
 

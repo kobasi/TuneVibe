@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="style.css">
 
 <!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300,400|Devonshire|Source+Sans+Pro:300,400" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300,400,500|Devonshire|Source+Sans+Pro:300,400,500" rel="stylesheet">
 
 <!-- Font Awesome -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
@@ -124,11 +124,11 @@
   <!-- Card2&3 Section -->
   <div class="row">
       <div class="card2  bg-black col-sm-12">
-          <div class="card-body">
+          <div class="card-body col-sm-12">
             <!-- <h4 class="card-title2">Features</h4> -->
             <!-- <img src="images/iphone-app.png" class="iphone-app" id="phone"> -->
             <img src="images/my-phone.png" class="iphone-app2" id="phone">
-            <p class=" card-text3">Monetization virality crowdfunding technology backing business plan 
+            <p class=" card-text3" style="margin-right: 9%">Monetization virality crowdfunding technology backing business plan 
               launch party incubator client. Customer agile development analytics sales branding first 
               mover advantage startup social media incubator iPhone prototype user experience accelerator 
               direct mailing. Metrics validation crowdsource angel investor bandwidth monetization prototype. 
@@ -157,7 +157,7 @@
   </div>
 <div class="row">
     <div class="col-sm-12 card3 w-140">
-        <div class="card-body">
+        <div class="card-body col-sm-12">
           <h4 class="card-title" style="padding-top: 2%">About Us</h4>
           <p class="card-text2">Lean startup paradigm shift startup equity A/B testing metrics. 
               Business-to-consumer research & development scrum project direct mailing stock non-disclosure 
@@ -165,6 +165,7 @@
               growth hacking seed money backing client vesting period. Angel investor growth hacking business 
               model canvas paradigm shift return on investment alpha. Angel investor supply chain launch party 
               business plan long tail accelerator beta sales prototype business-to-consumer buyer. </p>
+          <img src="images/adult-blur-city-936043.jpg" class="image5">
           <!-- <div class="row">
             <div class="col-sm-1 col-md-10 col-lg-4" style="background: blueviolet">hey</div>
             <div class="col-sm-1 col-md-10 col-lg-4" style="background: violet">hey</div>
@@ -172,42 +173,59 @@
           </div>  -->
          
         </div>
-      </div>
-      
-    </div>
-</div>
-
-<!-- <div class="row">
-  <div class="card2  bg-black col-sm-12">
-      <div class="card-body">
-        <h4 class="card-title2">Contact</h4> -->
-        
         <form>
           <div class="form-group">
             <h4 class="card-title3" style="color:whitesmoke">Stay up-to-date and subscribe to our email list:</h4>
             <label for="exampleFormControlInput1"></label>
-            <div class="card-body">
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email Address">
-            <button type="button" class="btn btn-light card-title4">Subscribe</button>
+            <div class="card-body row-container-around">
+            <input type="email" class="form-control2" id="exampleFormControlInput1" placeholder="Email Address">
+            <button type="button" class="btn btn-success card-title4" data-toggle="modal" data-target="#subscribeModal">Subscribe</button>
           </div>
           </div>
         </form>
 
+        <!-- Thank you for Subscribing Modal -->
+<div class="modal fade" id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="exampleModalLabel">Received</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Thank you for subscribing!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
     </div>
+  </div>
 </div>
-
-
-
-
-  <!-- Footer -->
+         <!-- Footer -->
+ 
       <div class="card-footer text-center text-muted">
         <p class="footer-text">Download in the App Store or on Google Play</p>
         <img class="app-store" src="images/Apple-App-Store-_logo.png">
         <img class="google-play" src="images/google-play-badge-logo-png-transparent.png">
 
       </div>
-    
+   
+      </div>
+    </div>
+
+</div>
+
+<!-- <div class="row">
+  <div class="card2  bg-black col-sm-12">
+      <div class="card-body">
+        <h4 class="card-title2">Contact</h4> -->
+
+      </div>
+    </div>
+</div>
+
 
 <!-- Javascript scripts -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
