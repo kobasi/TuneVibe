@@ -1,7 +1,9 @@
 body {
     background: #000;
+    padding:0; 
+    margin:0;
 }
-
+    
 /* Nav Bar */
 .navbar {
     background-color: black;
@@ -114,7 +116,7 @@ nav a:hover {
     color: whitesmoke;
 }
 .card2 {
-    height: 630px;
+    height: 620px;
     background-color: #744EA0;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
@@ -128,37 +130,6 @@ nav a:hover {
     color: whitesmoke;
 }
 
-.row-container-left{
-    display: flex;
-    flex-flow: wrap;
-    width: 50%;
-    justify-content: space-evenly;
-    align-content: flex-start;
-    align-content: left;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    padding: 0px;
-
-}
-
-.row-container-right{
-    display: flex;
-    justify-content: flex-end;
-    align-content: flex-end;
-    flex-flow: wrap;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    padding: 0px;
-
-}
-
-.row-container-around {
-    display: flex;
-    justify-content: space-around;
-
-}
 
 .card-body {
     display: flex;
@@ -200,7 +171,6 @@ nav a:hover {
     padding: 1.2% 4% 4% 1%;
     margin-left: 3.5%;
     margin-right: 3.5%;
-    /* font-style: italic; */
 }
 
 .card-text2 {
@@ -212,22 +182,15 @@ nav a:hover {
 
 .card-text3 {
     color: whitesmoke;
-    padding-top: 2%;
-}
-
-.iphone-app {
-    width: 300px;
-    height: 300px;
-    margin-left: 5%;
-
+    padding-top: 5%;
 }
 
 .iphone-app2 {
     width: 325px;
     height: 475px;
-    margin-left: 10%
 }
   
+
   /* Define #phone hover styles */
   #phone:hover {
     transform: scale(1.25);
@@ -240,7 +203,9 @@ nav a:hover {
 }
 
 .form-control2 {
-    width: 50%;
+    width: 75%;
+    margin-right: 3%;
+    margin-left: 5%;
 }
 
 /* Footer Section */
@@ -393,16 +358,26 @@ font-weight: 500;
     .display-6 {
         font-size: 25pt;
     }
+
+    .card2 {
+        height: 1170px;
+    }
+
     .image5 {
-        width: 190px;
-        height:100px;
+        width: 300px;
+        height:200px;
         }
     
+    .form-group {
+        margin-top: 5%; 
+    }
 }
 
 /* test colors*/
 
-.colorpurple {background-color: #744EA0;}
+.colorpurple {
+    background-color: #744EA0;
+}
 
 .colorlightblue {background-color: cadetblue;}
 
@@ -427,6 +402,11 @@ font-weight: 500;
 
     .card2 {
         height: 900px;
+        padding-top: 0%;
+    }
+
+    .card3 {
+        margin-top: 0%;
     }
     .card-body {
         display: flex;
@@ -458,8 +438,9 @@ font-weight: 500;
     }
 
     .image5 {
-        width: 180px;
-        height: 115px;
+        width: 300px;
+        height: 200px;
+        justify-content: center;
     }
    
 }
