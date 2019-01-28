@@ -395,9 +395,9 @@ font-weight: 500;
 /* XSmall Devices */
 @media (max-width: 575px) {
     
-    .navbar {
+    /* .navbar {
         display: none;
-    }
+    } */
 
     .display-6 {
         font-size: 19pt;
