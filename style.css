@@ -1,9 +1,9 @@
 body {
-    background: #000;
-    padding:0; 
-    margin:0;
-}
+   background: #000;
     
+}
+
+
 /* Nav Bar */
 .navbar {
     background-color: black;
@@ -77,10 +77,6 @@ nav a:hover {
     padding-left: 50%;
 }
 
-#downarrow:hover {
-    transform: scale(1);
-}
-
 /* Carousel Images */
 /* .image1 {
     width: 1350px;
@@ -100,11 +96,12 @@ nav a:hover {
 } */
 
 .image5 {
-    width: 400px;
-    height: 275px;
-    border-radius: 20%;
-    margin-top: 1%;
-    margin-right: 2%;
+    width: 200px;
+    height: 400px;
+    /* margin-top: 1%; */
+    /* margin-right: 2%; */
+    /* padding: 2px;
+    border:3px solid ; */
 }
 
 /* Cards */
@@ -112,22 +109,26 @@ nav a:hover {
     height: 310px;
     background-color: black;
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 300;
-    color: whitesmoke;
+    font-weight: 200;
+    color: lightgray;
 }
 .card2 {
+    width: 100%;
     height: 620px;
-    background-color: #744EA0;
+    /* background: #744EA0; */
+    background: gray;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     color: whitesmoke;
+
 }
 
 .card3 {
-    height: 350px;
+    
+    height: 530px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
-    color: whitesmoke;
+    color: lightgray;
 }
 
 
@@ -147,8 +148,9 @@ nav a:hover {
     font-family: 'Alegreya Sans SC', sans-serif;
     font-weight: 300;
     letter-spacing: 4.5px;
-    margin-top: 2.5%;
-    margin-left: 1.8%;
+    text-align: left;
+    margin-top: 12.5%;
+    margin-left: 5%;
     padding-bottom: 2%;
 }
 
@@ -176,6 +178,7 @@ nav a:hover {
 .card-text2 {
     text-align: left;
     padding: 1.5% 4% 4% 1%;
+    font-weight: 200;
     margin-left: 3.5%;
     margin-right: 3.5%; 
 }
@@ -247,6 +250,11 @@ font-weight: 500;
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
+    
+    .card3 {
+        margin-top: 4%;
+    }
+
     .card-text {
         font-size: 21pt;
     }
@@ -270,30 +278,16 @@ font-weight: 500;
         width: 1350px;
         height: 900px;
     }
+
+    .image5 {
+        margin-top: 25%;
+    }
+    
+    .form-group {
+        margin-top: 5%;
+    }
 }
 
-/* 
-@media (max-width: 991px) {
-    .iphone-app {
-        width: 220px;
-        height: 220px;
-    }
-    .iphone-app2 {
-        width: 210px;
-        height: 320px;
-    }  
-}
-
-@media (min-width: 577px) {
-    .iphone-app {
-        width: 220px;
-        height: 220px;
-    }
-    .iphone-app2 {
-        width: 210px;
-        height: 320px;
-    }
-} */
 
 /* // Medium devices (landscape phones, 576px and below) */
 @media (min-width: 768px) and (max-width: 991px) { 
@@ -317,6 +311,9 @@ font-weight: 500;
        height: 530px;
    }
 
+   .card3 {
+       margin-top: 0%;
+   }
    .card-title {
        text-align: center;
    }
@@ -358,18 +355,30 @@ font-weight: 500;
     .display-6 {
         font-size: 25pt;
     }
-
+    
+    .card {
+        height: 230px;
+    }
+    
     .card2 {
-        height: 1170px;
+        height: 1180px;
+        display: flex;
+        
+    }
+
+    .card3 {
+        margin-top: 5%;
+        height: 650px;
     }
 
     .image5 {
         width: 300px;
         height:200px;
+        display: flex;
         }
     
     .form-group {
-        margin-top: 5%; 
+        margin-top: 20%; 
     }
 }
 
@@ -406,8 +415,10 @@ font-weight: 500;
     }
 
     .card3 {
-        margin-top: 0%;
+        margin-top: -30%;
+        height: 600px;
     }
+
     .card-body {
         display: flex;
         justify-content: space-around;
@@ -441,6 +452,10 @@ font-weight: 500;
         width: 300px;
         height: 200px;
         justify-content: center;
+    }
+
+    .form-group {
+        margin-top: -40%;
     }
    
 }
